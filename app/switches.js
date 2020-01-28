@@ -19,7 +19,7 @@ function daysPosition(day, offset) {
             return offset ? 4 : 5;
         case "friday":
             return offset ? 5 : 2;
-        case "saturday":
+        case "sunday":
             return offset ? 6 : 7;
         case "saturday":
             return offset ? 7 : 1;
