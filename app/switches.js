@@ -88,7 +88,6 @@ function golfScore(score, par) {
 let count = 0
 
 function cardCounter(card) {
-    console.log(card)
     switch (card) {
         case '2':
         case '3':
@@ -105,6 +104,5 @@ function cardCounter(card) {
             count--;
             break;
     }
-    console.log(count)
     return count > 0 ? `${count} Bet` : `${count} Hold`
 }
